@@ -1,0 +1,277 @@
+body {
+  width: 75%;
+  margin: 0 auto 50px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoContainer{
+  order: 1;
+  width: 100%;
+}
+
+.titleContainer {
+  order: 2;
+  width: 100%;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.logoImg {
+  object-fit: cover;
+}
+
+.devName {
+  font-family: 'Patua One', cursive;
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.devDesc {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1em;
+  margin: 0;
+}
+
+.mainImg {
+  display: block;
+  width: 100%;
+  max-height: 750px;
+  margin: 0  auto;
+  padding-top: 4px;
+}
+
+.portfolioContainer {
+  width: 100%;
+}
+
+.featuredContainer {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.projectsImg {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+
+section h2 {
+  font-family: 'Patua One', cursive;
+  font-size: 2em;
+  text-align: left;
+  padding: 6px 0 3px 0;
+  color: #35383d;
+}
+
+.projectName {
+  font-family: 'Patua One', cursive;
+  margin: 0.5em auto;
+}
+
+a {
+  font-family: 'Patua One';
+}
+
+.projectOne {
+  order: 1;
+  width: 100%;
+}
+
+.projectTwo {
+  order: 2;
+  width: 100%;
+}
+
+.projectThree {
+  order: 3;
+  width: 100%;
+}
+
+.box {
+  margin-bottom: 1.5em;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    width: 85%;
+    margin: 0 auto 25px auto;
+  }
+
+  section h2 {
+    font-family: 'Patua One', cursive;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 6px 0 3px 0;
+    color: #35383d;
+  }
+
+  a {
+    font-size: 0.85em;
+  }
+
+  .logoImg {
+    object-fit: cover;
+    width: 90%;
+  }
+
+  .devName {
+    font-family: 'Patua One', cursive;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+
+  .devDesc {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 0.9em;
+    margin: 0;
+  }
+
+  .featuredContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projectsImg {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 4px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 650px) {
+  body {
+    width: 85%;
+    margin: 0 auto 25px auto;
+  }
+
+  .devName {
+    font-family: 'Patua One', cursive;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+
+  .devDesc {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 0.9em;
+    margin: 0;
+  }
+
+  .logoImg {
+    object-fit: cover;
+    /* width: 90%; */
+  }
+
+  .featuredContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projectsImg {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 4px;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 979px) {
+  body {
+    width: 85%;
+    margin: 0 auto 25px auto;
+  }
+
+  section h2 {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    text-align: left;
+    padding: 6px 0 3px 0;
+    color: #35383d;
+  }
+
+  a {
+    font-size: 0.8em;
+  }
+
+  .logoImg {
+    object-fit: cover;
+  }
+
+  .featuredContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projectsImg {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 4px;
+  }
+
+  .devName {
+    font-family: 'Patua One', cursive;
+    font-size: 1.9em;
+    margin: 0.5em 0;
+  }
+
+  .devDesc {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.2em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width:1200px) {
+  body {
+    width: 80%;
+    margin: 0 auto 25px auto;
+  }
+
+  section h2 {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    text-align: left;
+    padding: 6px 0 3px 0;
+    color: #35383d;
+  }
+
+  a {
+    font-size: 0.9em;
+  }
+
+  .logoImg {
+    object-fit: cover;
+  }
+
+  .featuredContainer {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projectsImg {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 4px;
+  }
+}
