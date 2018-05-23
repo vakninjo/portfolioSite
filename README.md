@@ -6,4 +6,4 @@ This is the first project for the Udacity Front-End developer Nanodegree. This p
 
 ### Links
 
-[Public hosted site: http://www.pentestjo.info](http://www.pentestjo.info/index.html)
+[Public hosted site: http://www.pentestjo.info](http://www.pentestjo.info/)
